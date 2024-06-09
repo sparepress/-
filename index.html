@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>闪亮祝福</title>
+<style>
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  text-shadow: 2px 2px 2px #ff0000, -2px -2px 2px #00ff00;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+#message {
+  font-size: 1.5em;
+  animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+  0% { color: #ff0000; }
+  25% { color: #00ff00; }
+  50% { color: #0000ff; }
+  75% { color: #ffff00; }
+  100% { color: #ff00ff; }
+}
+</style>
+</head>
+<body>
+<h1>吕艺欣</h1>
+<p id="message">你的人生才刚开始，没有到头。希望你未来的道路充满阳光和喜悦，无论选择何种前程，都能勇敢前行，追逐梦想，创造美好的明天。祝福你未来的道路坦途顺利，前程似锦！</p>
+</body>
+</html>
